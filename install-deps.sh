@@ -3,8 +3,8 @@ export WINEINSTALL="/Applications/Wine Stable.app/Contents/Resources/wine"
 export WINEPREFIX="$HOME/.kivotos"
 export WINEARCH=win64
 
-# Mac の依存パッケージをインストール
-brew install gnutls winetricks
+# Intel アプリを起動するための Rosetta をインストール
+softwareupdate --install-rosetta --agree-to-license
 
 # Wine 用の GStreamer をインストール
 GSTREAMER_VERSION="1.29.1"
