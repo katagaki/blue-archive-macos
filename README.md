@@ -3,7 +3,7 @@
 (English follows)
 
 1. `install-deps.sh`で必要な依存パッケージをインストール
-   - 一部のインストーラーが取り下げられたため、Releasesから手動でダウンロードしてインストールしてください
+   - 一部のインストーラーが取り下げられたため、[Releases](https://github.com/katagaki/blue-archive-macos/releases)から手動でダウンロードしてインストールしてください
    - 手動でインストールする場合、スクリプトの内容を確認し、インストールの部分のみ実行してください
 3. `setup.sh`でWine環境を準備
 4. `install-launcher.sh`でゲームのランチャーをインストール
@@ -15,7 +15,7 @@
 # Running Blue Archive on macOS
 
 1. Install required dependencies with `install-deps.sh`
-   - Installers that are no longer available can be downloaded from Releases
+   - Installers that are no longer available can be downloaded from [Releases](https://github.com/katagaki/blue-archive-macos/releases)
    - When installing manually, check and run the install portions of the script
 3. Prepare the Wine prefix with `setup.sh`
 4. Install the game launcher with `install-launcher.sh`
