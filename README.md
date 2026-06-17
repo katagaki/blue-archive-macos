@@ -1,3 +1,5 @@
+**macOS 28 以降 Intel の互換性がなくなるため対応不可能です。**
+
 # macOSでブルーアーカイブを稼働する手順
 
 (English follows)
